@@ -15,7 +15,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Prabhas_Movie_Filter_Bot')
 API_ID = int(environ.get('API_ID', '21655208'))
 API_HASH = environ.get('API_HASH', '967c1a6159d164191f4d79022d557f92')
-BOT_TOKEN = environ.get('BOT_TOKEN', '7908771353:AAFpCAROJIlxaNMxnlUWapp9ERzNUI_hm5U')
+BOT_TOKEN = environ.get('BOT_TOKEN', '')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '7008975700').split()]
